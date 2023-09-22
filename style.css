@@ -1,0 +1,34 @@
+body {
+        background-color: gray;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        color:white;
+        border-radius:15px;
+        
+      }
+      select {
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 16px;
+        background-color:lightgray;
+        border-radius:15px;
+      }
+      input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+        background-color:lightgray;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: darkgray;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius:30px;
+      }
